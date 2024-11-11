@@ -6,6 +6,12 @@ Get Telegram notifications about the most recent doctor's appointments on [docto
 
 ℹ️ 🔒 🔧 Remember that this static script does not know anything about your doctolib details behind your login so you have to **monitor** and **adjust** it on the go to reduce unwanted notifications.
 
+
+-------------------------------------------------------------------------
+**FORKED VERSION** - It adds a debug mode and handles the API requests a little better.
+How to enable the DEBUG mode: simply change its flag from within the code (DEBUG_MODE = True)
+-------------------------------------------------------------------------
+
 ## Setup
 
 ### Telegram
