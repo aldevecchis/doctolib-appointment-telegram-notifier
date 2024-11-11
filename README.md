@@ -1,16 +1,14 @@
 # Der BergdoktorBot – A Doctolib doctor's appointment Telegram notifier
 
-![Der BergdoktorBot banner](images/Der_Bergdoktor_banner_with_working_title_and_project_description.jpg)
+-------------------------------------------------------------------------
+**FORKED VERSION** -
+- New debug mode (simply change DEBUG_MODE to True from within the code)
+- Better handling of API requests/responses
+-------------------------------------------------------------------------
 
 Get Telegram notifications about the most recent doctor's appointments on [doctolib.de](https://www.doctolib.de/). This script will notify you **every minute** as long as appointments exist within the next `UPCOMING_DAYS`. The next appointment outside of that threshold is additionally notified **on the hour**.
 
 ℹ️ 🔒 🔧 Remember that this static script does not know anything about your doctolib details behind your login so you have to **monitor** and **adjust** it on the go to reduce unwanted notifications.
-
-
--------------------------------------------------------------------------
-**FORKED VERSION** - It adds a debug mode and handles the API requests a little better.
-How to enable the DEBUG mode: simply change its flag from within the code (DEBUG_MODE = True)
--------------------------------------------------------------------------
 
 ## Setup
 
